@@ -1,0 +1,7 @@
+{
+  "name": "ionicStarWarsApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
