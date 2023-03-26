@@ -73,3 +73,37 @@
     border: 3px solid;
     border-radius: 1px;
 }
+
+.welcome-content {
+    .swiper .swiper-slide {
+        padding: 0 3vh !important;
+        display: block !important;
+        z-index: 10 !important;
+    }
+
+    .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: -1px !important;
+    }
+    .swiper-pagination-bullet {
+        background: #e7ebed !important;
+        border: #707070;
+    }
+
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: #6155cc !important;
+    }
+}
+
+.choose-slider {
+    .swiper .swiper-slide img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-slide-active {
+        .slider-slide-spec {
+            opacity: 1 !important;
+        }
+    }
+}
+

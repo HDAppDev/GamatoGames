@@ -14,7 +14,7 @@ import { HomePageModule } from './home/home.module';
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
-    HomePageModule
+    HomePageModule,
   ],
   providers: [{ 
     provide: RouteReuseStrategy, 
