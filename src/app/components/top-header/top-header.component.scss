@@ -1,0 +1,47 @@
+.top-header {
+    background-color: #fff;
+    padding: 2.339vh 5.86vw 0vh 5.866vw;
+    display: flex;
+    align-items: center;
+    margin: -10px 0 -10px 0 !important;
+    &.charity-head {
+        padding-bottom: 1.84vh;
+    }
+
+    .menu-image {
+        margin-right: 10px;
+    }
+
+    .page-heading {
+        padding: 0;
+        font-weight: 500;
+        // font-size: 3.694vh;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #2d3142;
+        margin: 0;
+    }
+
+    .notification-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .heading-wrap {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    .top-header {
+        padding: 2.33vh 30px 0vh;
+    }
+}
+
+// .animation {
+//     padding: 2.339vh 30px 0vh;
+// }
