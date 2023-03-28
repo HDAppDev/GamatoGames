@@ -1,0 +1,55 @@
+.signup-content {
+    // width: 600px;
+    // align-self: center;
+    // overflow: hidden;
+}
+
+.country-select,
+.ion-no-padding {
+    padding: 0 !important;
+    --padding-start: 14px !important;
+}
+
+.password-reveal-icon {
+    margin: 0px !important;
+    width: 20px;
+}
+
+@media (max-width:600px) {
+    .signUp-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        align-self: center;
+    }
+}
+
+.login-text {
+    font-size: 3.94vh;
+    margin: 1vh 0 9.23vh 0;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.back {
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 35px;
+}
+
+/* Login phone number field */
+@media (min-width: 1025px) {
+    .country-select {
+        overflow: unset !important;
+        z-index: 99;
+    }
+
+    .iti_flag-box,
+    .iti_country-name {
+        margin-right: 18px;
+    }
+}
