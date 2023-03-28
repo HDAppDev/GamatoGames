@@ -1,0 +1,155 @@
+<ion-content class="signUp-content">
+    <div class="signup-wrap" lang="en">
+
+        <div class="front-card d-view">
+            <div class="card-header">
+                <img src="#" title="logo" alt="logo" />
+            </div>
+            <div class="form-wrapper">
+                <form class="signup-form-size">
+                    <div class="login-form pt-15">
+                        <ion-item class="ion-no-padding">
+                            <input type="tel" placeholder="Email address or mobile number" maxlength="12" class="login-input">
+                        </ion-item>
+                        <ion-item class="ion-no-padding">
+                            <input type="password" minlength="6" maxlength="20" class="login-input">
+                        </ion-item>
+                        <div class="errorContainer d-none">
+                            <ion-icon name="warning" class="icon"></ion-icon>
+                            <span class="text">please enter mobile number</span>
+                            <span class="text">Please enter phone number</span>
+                        </div>
+                        <div class="errorContainer d-none">
+                            <ion-icon name="warning" class="icon"></ion-icon>
+                            <span class="text">Enter password</span>
+                        </div>
+
+                        <div class="errorContainer d-none">
+                            <ion-icon name="warning" class="icon"></ion-icon>
+                            <span class="text">Valid password</span>
+                        </div>
+
+                        <div>
+                            <p class="lost-password">
+                                <a href="" class="text-link">Forgotten password?</a>
+                            </p>
+                        </div>
+
+                        <div class="buttons-wrapper">
+                            <ion-button expand="block" class="ion-btn btn-primary text-cap" type="submit">Log In</ion-button>
+                            <p class="or">or</p>
+                            <ion-button expand="block" class="ion-btn btn-outline text-cap" type="submit">Sign Up</ion-button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="captcha-contaainer"></div>
+                <div class="content-holder-">
+                    <div class="flag_div_holder-">
+                        <div class="animation-">
+                            <div class="flag_holder-">
+                                <div class="scroll_be">
+                                    <div class="">
+                                        <img src="#" alt="" class="Img_flag">
+                                    </div>
+                                </div>
+
+                                <div class="fix-lang">
+                                    <div class="bts">
+                                        <div class="inner_button-">
+                                            <img src="#" alt="" class="Img_flag">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Ulinks"><a href="#">Contact us</a> | <a href="#">Privacy</a> | <a href="#">Legal</a> | <a href="#">Worldwide</a></div>
+            </div>
+        </div>
+
+        <div class="m-view d-none">
+            <div>
+                <div>
+                    <ion-fab vertical="top" horizontal="start" slot="fixed">
+                        <ion-icon name="arrow-back" class="close-fab"></ion-icon>
+                    </ion-fab>
+                </div>
+                <div class="login-text-position">
+                    <h3 class="ion-text-center login-text">
+                        Welcome <br>
+                        Back
+                    </h3>
+                </div>
+            </div>
+            <div>
+                <form class="signup-form-size">
+                    <div class="login-form">
+                        <ion-item class="country-select ion-no-padding" id="border-custon">
+                            <input type="tel" placeholder="1234567890" maxlength="12" accesskey="p" class="login-phone-number" #phoneNumber />
+                        </ion-item>
+
+                        <div class="errorContainer">
+                            <ion-icon class="icon" name="warning"></ion-icon>
+                            <span class="text">Mobile number</span>
+                            <span class="text">Please number</span>
+                        </div>
+                        <ion-item class="ion-no-padding push-back">
+                            <ion-input class="password-alignment" minlength="6" maxlength="20" placeholder="***********"></ion-input>
+                            <img src="#" width="35" height="35" alt="eye-off" class="password-reveal-icon">
+                            <img src="#" alt="#" width="35" height="35" class="password-reveal-icon">
+                        </ion-item>
+                    </div>
+
+                    <div class="errorContainer">
+                        <ion-icon class="icon" name="warning"></ion-icon>
+                        <span class="text">Enter password</span>
+                    </div>
+                    <div class="errorContainer">
+                        <ion-icon class="icon" name="warning"></ion-icon>
+                        <span class="text">Enter Valid password</span>
+                    </div>
+
+                    <ion-button class="action-btn-large" type="submit">Log In</ion-button>
+                </form>
+
+                <div class="forgot-pass-txt" aria-hidden="true">
+                    <p class="lost-password">
+                        Forgot Password
+                        <a class="text-link"> Click here</a>
+                    </p>
+                </div>
+                <div class="content_holder">
+                    <div class="name_holder">
+                        <span class="for_aline">Change Language</span>
+                    </div>
+                    <div class="flag_div_holder">
+                        <div class="animation">
+                            <div class="flags_holder">
+                                <div class="scroll_be">
+                                    <div class="">
+                                        <img src="@" alt="" class="Img_flag" />
+                                        <p class="t">first name</p>
+                                    </div>
+                                </div>
+
+                                <div class="change">
+                                    <div class="bt">
+                                        <div class="inner_button">
+                                            <img src="#" alt="" class="Img_flag" />
+                                            <p class="tt">name</p>
+                                            <img src="#" width="12px" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <ion-button class="refresh-btn">Reload</ion-button> -->
+            </div>
+        </div>
+    </div>
+</ion-content>

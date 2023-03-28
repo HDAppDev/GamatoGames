@@ -2,6 +2,7 @@ import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { IonicModule } from "@ionic/angular";
 import { MaterialModule } from "../home/material/material.module";
+// import { LoginPage } from "./login/login.page";
 import { SignupPage } from "./signup/signup.page";
 import { TopHeaderComponent } from "./top-header/top-header.component";
 import { WelcomePage } from "./welcome/welcome.page";
@@ -12,7 +13,7 @@ import { WelcomePage } from "./welcome/welcome.page";
         TopHeaderComponent,
         WelcomePage,
         TopHeaderComponent,
-        SignupPage
+        SignupPage,
     ],
     exports: [
         TopHeaderComponent,
