@@ -1,14 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-content>
-      <app-signup></app-signup>
-    </ion-content>
-  </ion-toolbar>
-</ion-header>
+<app-top-header></app-top-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-    </ion-toolbar>
-  </ion-header>  
-</ion-content>
+<ng-container>
+  <div class="no-scrollbar home-wrapper">
+    <ion-grid class="back-wrap welcome-header">
+      <ion-row class="welcomeRow">
+        <ion-col class="ion-no-padding ion-hand-wave" id="handEmoji">
+          <h1 class="hand-wave-emoji as">👋</h1>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ng-container>
