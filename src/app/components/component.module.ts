@@ -3,8 +3,10 @@ import { NgModule } from "@angular/core";
 import { IonicModule } from "@ionic/angular";
 import { MaterialModule } from "../home/material/material.module";
 import { HeaderComponent } from "./header/header.component";
+import { LoadingPopupComponent } from "./loading-popup/loading-popup.component";
 import { LoadingScreenComponent } from "./loading-screen/loading-screen.component";
 import { LoadingComponent } from "./loading/loading.component";
+import { LoginPage } from "./login/login.page";
 // import { LoginPage } from "./login/login.page";
 import { SignupPage } from "./signup/signup.page";
 import { TopHeaderComponent } from "./top-header/top-header.component";
@@ -19,16 +21,22 @@ import { WelcomePage } from "./welcome/welcome.page";
         SignupPage,
         LoadingComponent,
         LoadingScreenComponent,
-        HeaderComponent
+        HeaderComponent,
+        LoadingPopupComponent
     ],
     exports: [
         TopHeaderComponent,
         SignupPage,
-        MaterialModule
+        WelcomePage,
+        LoadingComponent,
+        LoadingPopupComponent,
+        LoadingScreenComponent,
+        SignupPage
     ],
     imports: [
         CommonModule,
         IonicModule,
+        MaterialModule
     ],
 
 })
