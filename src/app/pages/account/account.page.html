@@ -1,22 +1,84 @@
-<ion-content class="account-wrapper">
+<!-- <div class="gototop" (click)="pageScroller()"><img src="../../../assets/icon/gototop.svg" /></div> -->
+<ion-content #pageTop class="account-wrapper">
     <div class="main-container">
-        <ion-row class="topheader">
-            <ion-col class="heading-wrap ion-no-padding" size="11">
-                <h1 class="page-heading">Username</h1>
-            </ion-col>
-            <ion-col class="notification-wrap ion-no-padding" size="1">
-                <img src="#" class="support-img" />
-            </ion-col>
-        </ion-row>
-
-        <div class="links-card">
-            <h2 class="top-titles">manage</h2>
-            <ion-card no-lines>
-                <ion-item lines="none">
-                    <ion-label>service settings</ion-label>
-                    <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
-                </ion-item>
-            </ion-card>
-        </div>
+      <ion-row class="topheader">
+        <ion-col class="heading-wrap ion-no-padding" size="11">
+          <h1 class="page-heading">Account details</h1>
+        </ion-col>
+        <ion-col class="notification-wrap ion-no-padding" size="1">
+          <img class="support-img" src="#" />
+        </ion-col>
+      </ion-row>
+      <div class="links-card">
+        <h2 class="top-titles">Account Manage</h2>
+        <ion-card no-lines>
+          <ion-item lines="none">
+            <ion-label>Account settings</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>Payment Method</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>Payment preference</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>Account profile</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>update password</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+        </ion-card>
+      </div>
+      <div class="links-card">
+        <h2 class="top-titles">Connect with us!</h2>
+        <ion-card>
+          <ion-item lines="none">
+            <img class="social-icons" slot="start" src="#" />
+            <ion-label>Account social media</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <img class="social-icons" slot="start" src="#" />
+            <ion-label>Facebook</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <img class="social-icons" slot="start" src="#" />
+            <ion-label>Google</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+  
+          <ion-item lines="none">
+            <img class="social-icons" slot="start" src="#" />
+            <ion-label>Login with Fingerprint <br /><span>Login with faceId</span></ion-label>
+            <ion-toggle class="theme-blue" checked color="secondary" mode="ios"></ion-toggle>
+          </ion-item>
+        </ion-card>
+      </div>
+      <div class="links-card">
+        <h2 class="top-titles">About us</h2>
+        <ion-card>
+          <ion-item lines="none">
+            <ion-label>Privacy policy</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>Terms and condition</ion-label>
+            <ion-icon class="chevron-forward" name="chevron-forward"></ion-icon>
+          </ion-item>
+        </ion-card>
+      </div>
+      <div class="links-card">
+        <ion-card>
+          <ion-item lines="none">
+            <ion-label class="text-red">logout</ion-label>
+          </ion-item>
+        </ion-card>
+      </div>
     </div>
-</ion-content>
+  </ion-content>
