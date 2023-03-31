@@ -31,7 +31,8 @@ import { WelcomePage } from "./welcome/welcome.page";
         LoadingComponent,
         LoadingPopupComponent,
         LoadingScreenComponent,
-        SignupPage
+        SignupPage,
+        HeaderComponent
     ],
     imports: [
         CommonModule,

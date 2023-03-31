@@ -1,0 +1,115 @@
+.legal-content {
+    font-size: 1.97vh;
+    line-height: 3vh;
+    color: #2d3142;
+}
+
+.request-info {
+    margin: 0;
+    font-size: 1.97vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 2.58vh !important;
+}
+.user-information-wrapper {
+    max-height: 24vh;
+    min-height: 24vh;
+    margin-top: 2.5vh;
+    background: white;
+}
+.delete-all-date {
+    margin-top: 1.5vh;
+    min-height: 50vh;
+    max-height: 50vh;
+    background: white;
+}
+.close-account-description, ul {
+    font-size: 1.97vh;
+    font-weight: 400;
+    color: #2d3142;
+    line-height: 3vh;
+    margin: 3vh 0 0;
+    padding: 0 5.86vw;
+    @media (min-width: 1025px) {
+        padding: 0 15px;
+    }
+}
+
+ul {
+    margin: 0;
+}
+
+.delete-account-data {
+    width: 100%;
+    font-size: 14px;
+    color: #e95b5b;
+}
+.no-scrollbar {
+    --background: #f4f6fa;
+}
+.warning-text {
+    margin: 0;
+    font-size: 14px;
+    color: #e95b5b;
+}
+
+.warn-align {
+    text-align: left;
+    color: #e95b5b;
+    padding: 0 5.86vw;
+    margin-left: -3vh;
+    font-size: 14px;
+    @media (min-width: 1025px) {
+        padding: 0 15px;
+    }
+}
+
+.close-warn {
+    text-align: left;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #e95b5b;
+}
+
+.warning-wrapper {
+    background-color: #fff;
+    padding: 0;
+    margin-left: 2vh;
+}
+
+h1 {
+    margin-top: 2vh !important;
+}
+
+.delete-action-wrapper {
+    margin-top: 4.55vh;
+}
+
+.page-background-blue {
+    padding-top: 0;
+}
+
+.page-padding {
+    padding: 0 5.866vw;
+    @media (min-width: 1025px) {
+        padding: 0 25px;
+    }
+}
+
+.permanently-word {
+    font-weight: 500;
+}
+
+.delete-wrapper-content {
+    padding: 0 5.866vw;
+    @media (min-width: 1025px) {
+        padding: 0 25px;
+    }
+}
+
+.delete-confirmation {
+    padding: 0;
+}
