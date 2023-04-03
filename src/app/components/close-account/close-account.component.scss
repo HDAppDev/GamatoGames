@@ -1,0 +1,48 @@
+.close-account-wrapper {
+    padding: 0 3vh;
+
+    .hand-icon {
+        margin: 7.75vh 0 9.433vh;
+        width: 100%;
+        height: 3.694vh;
+        object-fit: contain;
+        font-family: "AppleColorEmoji";
+        font-size: 5.91vh;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.63;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2d3142;
+    }
+
+    .close-account-qn {
+        margin: 0;
+        margin-top: -4vh;
+        padding-bottom: 4.55vh;
+        color: #fff;
+        text-align: center;
+
+        line-height: 1.25;
+    }
+
+    .close-account-btn {
+        width: 103%;
+        height: 5.541vh;
+        margin: 0;
+        font-size: 1.97vh;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .keep-my-account {
+        margin: 0;
+        font-size: 1.97vh;
+        line-height: 1.5;
+        letter-spacing: 0.0246vh;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 2vh;
+    }
+}
