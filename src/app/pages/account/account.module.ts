@@ -6,6 +6,9 @@ import { ComponentModule } from "src/app/components/component.module";
 import { MaterialModule } from "src/app/home/material/material.module";
 import { LegalComponent } from "./account-options/legal/legal.component";
 import { AccountPage } from "./account.page";
+import { PreferenceComponent } from "./edit-account/preference/preference.component";
+import { ResetPasswordComponent } from "./edit-account/reset-password/reset-password.component";
+import { YourDetailsComponent } from "./edit-account/your-details/your-details.component";
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { AccountPage } from "./account.page";
     ],
     declarations: [
         AccountPage,
-        LegalComponent
+        LegalComponent,
+        PreferenceComponent,
+        ResetPasswordComponent,
+        YourDetailsComponent
     ],
 
     exports: [ AccountPage, LegalComponent],
