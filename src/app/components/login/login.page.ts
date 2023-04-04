@@ -1,5 +1,5 @@
 import { OnInit } from "@angular/core";
-import { Component } from "ionicons/dist/types/stencil-public-runtime";
+import { Component } from "@angular/core";
 
 
 @Component({

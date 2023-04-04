@@ -24,7 +24,8 @@ import { CloseAccountComponent } from "./close-account/close-account.component";
         LoadingScreenComponent,
         HeaderComponent,
         LoadingPopupComponent,
-        CloseAccountComponent
+        CloseAccountComponent,
+        LoginPage
     ],
     exports: [
         TopHeaderComponent,
