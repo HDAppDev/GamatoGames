@@ -13,6 +13,7 @@ import { TopHeaderComponent } from "./top-header/top-header.component";
 import { WelcomePage } from "./welcome/welcome.page";
 import { CloseAccountComponent } from "./close-account/close-account.component";
 import { ChooseCoverImage } from "./choose-cover-image/choose-cover-image.component";
+import { PasswordTextPage } from "./password-text/password-text.page";
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ChooseCoverImage } from "./choose-cover-image/choose-cover-image.compon
         LoadingPopupComponent,
         CloseAccountComponent,
         LoginPage,
-        ChooseCoverImage
+        ChooseCoverImage,
+        PasswordTextPage
     ],
     exports: [
         TopHeaderComponent,
@@ -42,7 +44,7 @@ import { ChooseCoverImage } from "./choose-cover-image/choose-cover-image.compon
     imports: [
         CommonModule,
         IonicModule,
-        MaterialModule
+        MaterialModule,
     ],
 
 })
