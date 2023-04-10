@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 22,
+  "agentName": "MSI",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/yIJuLsre1uXEXRegvMppBtAdwCmbPNpc5KmoO4JPG0mV81Yhoy",
+  "gitHubUrl": "https://github.com/dongarehari/GamatoGames",
+  "workFolder": "_work"
+}
