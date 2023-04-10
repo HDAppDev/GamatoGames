@@ -15,6 +15,7 @@ import { CloseAccountComponent } from "./close-account/close-account.component";
 import { ChooseCoverImage } from "./choose-cover-image/choose-cover-image.component";
 import { PasswordTextPage } from "./password-text/password-text.page";
 import { OngoingWarningComponent } from "./ongoing-warning/ongoing-warning.component";
+import { NewInstallAppCardComponent } from "./new-install-app-card/new-install-app-card.component";
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { OngoingWarningComponent } from "./ongoing-warning/ongoing-warning.compo
         LoginPage,
         ChooseCoverImage,
         PasswordTextPage,
-        OngoingWarningComponent
+        OngoingWarningComponent,
+        NewInstallAppCardComponent
     ],
     exports: [
         TopHeaderComponent,
