@@ -1,3 +1,27 @@
-<p>
-  in-progress-animation works!
-</p>
+<div>
+  <ion-item class="top-home-page" lines="none">
+    <ion-avatar slot="start">
+      <ion-skeleton-text animated></ion-skeleton-text>
+    </ion-avatar>
+    <ion-label>
+      <h3>
+        <ion-skeleton-text animated style="width: 70%"></ion-skeleton-text>
+        <ion-skeleton-text animated style="width: 40%"></ion-skeleton-text>
+      </h3>
+    </ion-label>
+    <ion-avatar class="bell-icon">
+      <ion-skeleton-text animated></ion-skeleton-text>
+    </ion-avatar>
+  </ion-item>
+  <div class="slider">
+    <ion-thumbnail class="home-card-skeleton-1" slot="start">
+      <ion-skeleton-text class="home-card-skeleton-text" animated></ion-skeleton-text>
+    </ion-thumbnail>
+    <ion-thumbnail class="home-card-skeleton-2" slot="start">
+      <ion-skeleton-text animated class="home-card-skeleton-text-2"></ion-skeleton-text>
+    </ion-thumbnail>
+  </div>
+  <ion-skeleton-text animated class="goal-skeleton"></ion-skeleton-text>
+</div>
+
+<!-- new ionic home card skeleton -->

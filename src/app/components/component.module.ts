@@ -16,6 +16,8 @@ import { ChooseCoverImage } from "./choose-cover-image/choose-cover-image.compon
 import { PasswordTextPage } from "./password-text/password-text.page";
 import { OngoingWarningComponent } from "./ongoing-warning/ongoing-warning.component";
 import { NewInstallAppCardComponent } from "./new-install-app-card/new-install-app-card.component";
+import { InProgressAnimationComponent } from "./in-progress-animation/in-progress-animation.component";
+import { NotificationComponent } from "./notification/notification.component";
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { NewInstallAppCardComponent } from "./new-install-app-card/new-install-a
         ChooseCoverImage,
         PasswordTextPage,
         OngoingWarningComponent,
-        NewInstallAppCardComponent
+        NewInstallAppCardComponent,
+        InProgressAnimationComponent,
+        NotificationComponent
     ],
     exports: [
         TopHeaderComponent,
