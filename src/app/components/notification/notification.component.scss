@@ -34,3 +34,48 @@ html, body {
     }
 }
 
+@keyframes bell {
+    0%, 25%, 75%, 100% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    45% {
+        transform: rotate(-10deg);
+    }
+    55% {
+        transform: rotate(8deg);
+    }
+    60% {
+        transform: rotate(-8deg);
+    }
+}
+
+@keyframes bellClapper {
+    0%, 25%, 75%, 100% {
+        transform: translateX( 0 );
+    }
+    40% {
+        transform: translateX( -.15em );
+    }
+    45% {
+        transform: translateX( .15em );
+    }
+    55% {
+
+        transform: translateX( -.1em );
+    }
+    60% {
+        transform: translateX( .1em );
+    }
+}
+
+@keyframes notification {
+    0%, 25%, 75%, 100% {
+        opacity: 1;
+    }
+    30%,70% {
+        opacity: 0;
+    }
+}

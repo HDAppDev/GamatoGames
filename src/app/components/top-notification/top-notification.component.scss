@@ -1,0 +1,41 @@
+.notification-pop-wrapper {
+    background-color: aquamarine;
+    background-size: cover;
+    height: 177px;
+    background-position: bottom;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    
+    .notification-top-wrapper {
+        padding: 0 25px;
+    }
+
+    .card-title {
+        font-family: RubiK;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    ion-button {
+        margin: 15px auto 10px;
+        height: 50px;
+        --border-radius: 8vh;
+        --background: #ffffff;
+        font-size: 2vh;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.2px;
+        color: #7564e3;
+        display: block;
+        width: 100%;
+    }
+}

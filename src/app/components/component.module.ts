@@ -19,6 +19,7 @@ import { NewInstallAppCardComponent } from "./new-install-app-card/new-install-a
 import { InProgressAnimationComponent } from "./in-progress-animation/in-progress-animation.component";
 import { NotificationComponent } from "./notification/notification.component";
 import { UserPage } from "./user-profile/user-profile.page";
+import { TopNotificationComponent } from "./top-notification/top-notification.component";
 
 
 @NgModule({
@@ -39,7 +40,9 @@ import { UserPage } from "./user-profile/user-profile.page";
         NewInstallAppCardComponent,
         InProgressAnimationComponent,
         NotificationComponent,
-        UserPage
+        UserPage,
+        NotificationComponent,
+        TopNotificationComponent
     ],
     exports: [
         TopHeaderComponent,
@@ -51,7 +54,8 @@ import { UserPage } from "./user-profile/user-profile.page";
         SignupPage,
         HeaderComponent,
         SignupPage,
-        UserPage
+        UserPage,
+        NotificationComponent
     ],
     imports: [
         CommonModule,
