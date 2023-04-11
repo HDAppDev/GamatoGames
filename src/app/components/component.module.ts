@@ -18,6 +18,7 @@ import { OngoingWarningComponent } from "./ongoing-warning/ongoing-warning.compo
 import { NewInstallAppCardComponent } from "./new-install-app-card/new-install-app-card.component";
 import { InProgressAnimationComponent } from "./in-progress-animation/in-progress-animation.component";
 import { NotificationComponent } from "./notification/notification.component";
+import { UserPage } from "./user-profile/user-profile.page";
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { NotificationComponent } from "./notification/notification.component";
         OngoingWarningComponent,
         NewInstallAppCardComponent,
         InProgressAnimationComponent,
-        NotificationComponent
+        NotificationComponent,
+        UserPage
     ],
     exports: [
         TopHeaderComponent,
@@ -47,7 +49,9 @@ import { NotificationComponent } from "./notification/notification.component";
         LoadingPopupComponent,
         LoadingScreenComponent,
         SignupPage,
-        HeaderComponent
+        HeaderComponent,
+        SignupPage,
+        UserPage
     ],
     imports: [
         CommonModule,

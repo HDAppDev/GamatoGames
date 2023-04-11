@@ -7,6 +7,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomePageModule } from './home/home.module';
+import { ComponentModule } from './components/component.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { HomePageModule } from './home/home.module';
     IonicModule.forRoot(), 
     AppRoutingModule,
     HomePageModule,
+    ComponentModule
   ],
   providers: [{ 
     provide: RouteReuseStrategy, 
