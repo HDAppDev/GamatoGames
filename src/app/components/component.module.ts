@@ -20,6 +20,7 @@ import { InProgressAnimationComponent } from "./in-progress-animation/in-progres
 import { NotificationComponent } from "./notification/notification.component";
 import { UserPage } from "./user-profile/user-profile.page";
 import { TopNotificationComponent } from "./top-notification/top-notification.component";
+import { NotificationPopComponent } from "./notification-pop/notification-pop.component";
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { TopNotificationComponent } from "./top-notification/top-notification.co
         NotificationComponent,
         UserPage,
         NotificationComponent,
-        TopNotificationComponent
+        TopNotificationComponent,
+        NotificationPopComponent
     ],
     exports: [
         TopHeaderComponent,
