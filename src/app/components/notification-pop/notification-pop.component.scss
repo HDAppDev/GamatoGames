@@ -1,0 +1,50 @@
+.notification-pop-wrapper {
+    font-family: Rubik;
+    ion-card {
+        border-radius: 15px;
+    }
+    .card-title {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        color: #2D3142;
+    }
+    ion-card-header {
+        padding: 5px;
+    }
+    ion-card-content {
+        p {
+            font-family: Rubik;
+            font-size: 1.8vh;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0px;
+            text-align: center;
+            margin-top: 10px;
+            color: #2D3142;
+        }
+        ion-button {
+            margin: 0 auto;
+            height: 50px;
+            --border-radius: 8vh;
+            --background: #7564e3;
+            font-size: 2vh;
+            font-weight: 400;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.2px;
+            color: #fff;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 90%;
+        }
+    }
+    
+}
