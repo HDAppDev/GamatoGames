@@ -5,8 +5,12 @@ import { GamesPage } from './games.page';
 
 const routes: Routes = [
   {
-    path: '',
-    component: GamesPage
+    path: "",
+    children: [
+      {
+        path
+      }
+    ]
   }
 ];
 
