@@ -1,2 +1,2 @@
 # GamatoGames
-Ecommerse app
+PWA Game app
