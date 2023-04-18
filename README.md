@@ -1,2 +1,2 @@
-# GamatoGames
-PWA Game app
+# GamatoGames PWA app
+
