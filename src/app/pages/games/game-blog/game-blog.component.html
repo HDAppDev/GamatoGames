@@ -1,3 +1,25 @@
-<p>
-  game-blog works!
-</p>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="upper-col">
+        <div class="upper-col__content">
+          <ion-buttons slot="start" (click) = "goBack()">
+            <ion-icon name="md-arrow-round-back"></ion-icon>
+          </ion-buttons>
+          <img src="#" alt="slider-image" />
+        </div>
+      </ion-col>
+
+      <ion-col class="button-col" size="12">
+        <div class="button-col__content">
+          <h4 class="button-col__content__title">title</h4>
+          <h6 class="button-col__content__description"></h6>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ng-template #loading>
+  <app-in-progress-animation></app-in-progress-animation>
+</ng-template>

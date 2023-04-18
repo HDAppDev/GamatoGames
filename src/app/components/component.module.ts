@@ -44,7 +44,8 @@ import { NotificationPopComponent } from "./notification-pop/notification-pop.co
         UserPage,
         NotificationComponent,
         TopNotificationComponent,
-        NotificationPopComponent
+        NotificationPopComponent,
+        
     ],
     exports: [
         TopHeaderComponent,
@@ -57,7 +58,9 @@ import { NotificationPopComponent } from "./notification-pop/notification-pop.co
         HeaderComponent,
         SignupPage,
         UserPage,
-        NotificationComponent
+        NotificationComponent,
+        InProgressAnimationComponent,
+
     ],
     imports: [
         CommonModule,
