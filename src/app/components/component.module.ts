@@ -22,6 +22,8 @@ import { UserPage } from "./user-profile/user-profile.page";
 import { TopNotificationComponent } from "./top-notification/top-notification.component";
 import { NotificationPopComponent } from "./notification-pop/notification-pop.component";
 import { HoldingScreenComponent } from "./holding-screen/holding-screen.component";
+import { LevelAnimationComponent } from "./level-animation/level-animation.component";
+import { GamePlayComponent } from "./game-play/game-play.component";
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import { HoldingScreenComponent } from "./holding-screen/holding-screen.componen
         NotificationComponent,
         TopNotificationComponent,
         NotificationPopComponent,
-        HoldingScreenComponent
+        HoldingScreenComponent,
+        LevelAnimationComponent,
+        GamePlayComponent,
         
     ],
     exports: [
