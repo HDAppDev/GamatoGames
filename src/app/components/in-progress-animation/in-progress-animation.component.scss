@@ -147,3 +147,804 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+.home-card-skeleton-text {
+    border-radius: 1.231vh;
+}
+
+.home-card-skeleton-text-2 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.goal-skeleton {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+
+// syndicate skeleton
+.syndicate-top {
+    height: 8vh;
+}
+
+.extra-text {
+    margin-top: 5vh;
+    width: 30%;
+    height: 3vh;
+}
+
+.extras-section-skeleton {
+    width: 42.2vw;
+    height: 16.4vh;
+    padding-top: 1.97vh;
+    padding-left: 1.84vh;
+    padding-right: 1.84vh;
+    margin: 1vh 0.5vh 0;
+    width: 42.2vw;
+    height: 16.4vh;
+    border-radius: 15px;
+}
+
+.syndicate-card-skeleton {
+    margin: 0;
+    margin-bottom: 2.46vh;
+    width: 90%;
+    box-shadow: none;
+    border-radius: 15px;
+    padding-right: 2.4vw;
+    padding-left: 2.4vw;
+    position: relative;
+    margin: 3vh auto;
+    height: 44vh;
+}
+
+// syndicate skeleton
+
+.slidebox {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.img-skeleton {
+    width: 21vw;
+    height: 21vw;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.slidetext {
+    display: flex;
+    margin-left: 20px;
+}
+
+.text-skeleton {
+    width: 21vw;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.advheader {
+    padding: 16px 0px 10px 20px;
+    background-color: #fff;
+}
+
+.advbox {
+    padding: 0px 0px 0px 20px;
+    background: #fff;
+    display: flex;
+}
+
+.adv-skeleton {
+    height: 23vh;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.adv-skeleton2 {
+    width: 20%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+// social page skeleton
+.social-header {
+    width: 94%;
+    height: 5vh;
+    border-radius: 9px;
+    margin: 1vh auto;
+}
+
+.social-cover {
+    width: 9%;
+    height: 3%;
+    position: absolute;
+    top: 8vh;
+    right: 19px;
+    z-index: 99;
+    border-radius: 4px;
+}
+
+.social-avatar {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+
+.social-username {
+    width: 30%;
+    height: 2%;
+    border-radius: 5px;
+    margin: 1vh auto;
+}
+
+.social-badge-area {
+    width: 25%;
+}
+
+.social-badge {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.social-badge-name {
+    width: 55%;
+    margin: 1vh auto;
+    border-radius: 2px;
+}
+
+.social-tab-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1vh auto;
+}
+
+.social-mat-tabs {
+    width: 32%;
+    height: 5.29vh;
+    border-radius: 3px;
+}
+
+.follow-lists {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+// hero area skeleton css
+.social-sub-tab-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0vh auto;
+
+    ion-skeleton-text {
+        width: 24%;
+        height: 3vh;
+    }
+}
+
+.social-hero-area {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    margin-top: 1vh;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.like-follow {
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    height: 5vh;
+}
+
+.gem-area {
+    height: 23vh;
+    width: 100%;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.desc-1 {
+    position: absolute;
+    top: 1vh;
+    width: 86%;
+    height: 1.5vh;
+    border-radius: 5px;
+    left: 2vh;
+}
+
+.desc-2 {
+    position: absolute;
+    top: 3vh;
+    width: 60%;
+    height: 1vh;
+    border-radius: 5px;
+    left: 2vh;
+}
+
+.desc-3 {
+    position: absolute;
+    top: 4.5vh;
+    width: 40%;
+    height: 1vh;
+    border-radius: 5px;
+    left: 2vh;
+}
+
+.desc-4 {
+    position: absolute;
+    top: 6vh;
+    width: 20%;
+    height: 1vh;
+    border-radius: 5px;
+    left: 2vh;
+}
+
+.gem-section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+}
+
+.gem-rank {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .b1,
+    .b3 {
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+    }
+}
+
+.gem-box {
+    display: flex;
+    justify-content: space-between;
+
+    .b4,
+    .b5 {
+        width: 30%;
+    }
+}
+
+.gem-sec-1 {
+    width: 55%;
+}
+
+.gem-sec-2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .b6 {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    .b7 {
+        width: 71%;
+        height: 4vh;
+        border-radius: 21px;
+    }
+}
+
+// home-feed skeleton css
+.home-feed {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-feed-top {
+    height: 8vh;
+}
+
+.home-feed-card-skeleton-1 {
+    height: 25vh;
+    --webkit-transform: translateZ(0);
+    margin: 1vh auto 1vh;
+    width: 83.26vw;
+}
+
+/* [GF] Skeleton Fortune Discover */
+
+.lotteries-cards-title {
+    margin-top: 2.5vh;
+
+    ion-skeleton-text {
+        width: 75%;
+        height: 3vh;
+    }
+
+    .sub {
+        width: 90%;
+        height: 2.5vh;
+    }
+}
+
+.lotteries-cards-title1 {
+    margin-top: 2.5vh;
+
+    ion-skeleton-text {
+        width: 90%;
+        height: 3vh;
+    }
+
+    .sub {
+        width: 90%;
+        height: 2.5vh;
+    }
+}
+
+.lotteries-cards-title2 {
+    margin-top: 2.5vh;
+
+    ion-skeleton-text {
+        width: 30%;
+        height: 3vh;
+    }
+
+    .sub {
+        width: 50%;
+        height: 2.5vh;
+    }
+}
+
+.discover-card-area {
+    height: 182px;
+    width: 100%;
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+
+    .big-card {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+
+.discover-two-cards-area {
+    margin-top: 2vh;
+
+    .big-card {
+        height: 96px;
+        width: 100%;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+}
+
+/* [GF] Skeleton Fortune missions */
+
+.missions-cards-title {
+    margin-top: 2.5vh;
+
+    ion-skeleton-text {
+        width: 35%;
+        height: 3.5vh;
+    }
+}
+
+.missions-cards-title1 {
+    margin-top: 2.5vh;
+
+    ion-skeleton-text {
+        width: 100%;
+        height: 2vh;
+    }
+
+    .sub {
+        width: 30%;
+        height: 2vh;
+    }
+}
+
+.missions-big-card {
+    margin-bottom: 3vh;
+}
+
+.missions-cards-title0 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: end;
+}
+
+.big-title1 {
+    height: 30px;
+    margin-right: 50px;
+}
+
+.big-ttile2 {
+    height: 18px;
+}
+
+.missions-two-cards-area {
+    .big-card {
+        height: 60px;
+        width: 100%;
+        border-radius: 1px;
+        margin: 1px 0px;
+    }
+}
+
+/* [GF] Skeleton Fortune Lifestyle */
+.lifestyle-skeleton {
+    .lifestyle-title {
+        padding: 0px 15px;
+    }
+
+    .lifestyle-title {
+        ion-skeleton-text {
+            height: 22px;
+            width: 30%;
+            margin: 10px 0px;
+        }
+
+        .sub {
+            height: 15px;
+            width: 100%;
+            margin: 10px 0px;
+        }
+
+        .sub2 {
+            height: 15px;
+            width: 70%;
+            margin: 10px 0px;
+        }
+    }
+
+    .lifestyle-slider {
+        display: flex;
+        height: 49px;
+        background-color: #f3f3f3;
+        margin-top: 20px;
+        margin-bottom: 8px;
+
+        .card {
+            margin: 10px;
+            height: 30px;
+            border-radius: 40px;
+        }
+    }
+
+    .lifestyle-filter {
+        .d-flex {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+    }
+
+    .lifestyle-filter {
+        padding: 10px 0px;
+    }
+
+    .d-flex .left {
+        display: flex;
+        align-items: center;
+    }
+
+    .left .card {
+        width: 17.17px;
+        height: 15.83px;
+        margin-right: 10px;
+    }
+
+    .left .card-3 {
+        width: 26px;
+        height: 10px;
+    }
+
+    .title ion-skeleton-text {
+        width: 80px;
+        height: 18px;
+    }
+
+    .right div:first-child {
+        display: flex;
+    }
+
+    .right div:first-child .card-1 {
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .right div:first-child ion-skeleton-text {
+        height: 22px;
+        width: 32px;
+    }
+
+    .right div:first-child .card-2 {
+        margin-left: 2px;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    .lifestyle-grid {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .grid-set ion-skeleton-text {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+//skeleton for stream part(community section)
+.stream-profile {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.str-comment {
+    width: 100%;
+    height: 9vh;
+}
+
+.str-filter {
+    margin-top: 1vh;
+    position: relative;
+    width: 100%;
+    height: 4vh;
+
+    .filter {
+        width: 100%;
+        height: 100%;
+    }
+
+    .round {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 3px;
+        border-radius: 50%;
+    }
+
+    .str-1 {
+        left: 12px;
+    }
+
+    .str-2 {
+        left: 36px;
+    }
+
+    .str-3 {
+        left: 60px;
+    }
+
+    .str-4 {
+        right: 19px;
+    }
+}
+
+.search-hash {
+    margin-top: 1vh;
+    display: flex;
+
+    .search {
+        width: 12%;
+        height: 4vh;
+    }
+
+    .hash {
+        width: 12%;
+        height: 4vh;
+        margin-left: 1vh;
+    }
+}
+
+// groups
+.group-profile {
+    position: relative;
+    height: 13vh;
+
+    ion-avatar {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 8vh;
+        height: 8vh;
+    }
+}
+
+.user {
+    margin: 1vh auto;
+    height: 2vh;
+}
+
+.name {
+    width: 30%;
+}
+
+.detail {
+    width: 49%;
+    height: 1vh;
+}
+
+.group-member {
+    width: 100%;
+    display: flex;
+    height: 2vh;
+    justify-content: center;
+}
+
+.member-text {
+    width: 13%;
+}
+
+.member-icon {
+    width: 3vh;
+    height: 3vh;
+    margin-left: 1vh;
+}
+
+.group-subtabs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3vh;
+
+    ion-skeleton-text {
+        width: 15%;
+    }
+}
+
+// photos
+.photo-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    ion-skeleton-text {
+        width: 30%;
+        height: 12vh;
+    }
+}
+
+.part {
+    margin-left: 1vh;
+}
+
+//followers
+.follow-text {
+    width: 30%;
+    height: 2vh;
+}
+
+.follow-slider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.follow-slide1 {
+    height: 32vh;
+    width: 58%;
+    margin-left: 2vh;
+    border-radius: 10px;
+}
+
+.follow-slide2 {
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.follow-subtabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    ion-skeleton-text {
+        width: 21%;
+        height: 2vh;
+    }
+}
+
+.loading {
+    position: absolute;
+    top: 10vh;
+    width: 94%;
+    left: 3px;
+}
+
+/* [GF] Skeleton Game trending */
+
+.trending-cards-title {
+    margin-top: 0;
+
+    ion-skeleton-text {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+/* [GF] Skeleton Game trending */
+
+.leaderboard-cards-title1 {
+    margin-top: 0;
+
+    ion-skeleton-text {
+        width: 10%;
+        height: 5px;
+    }
+}
+
+.discover-two-cards-area1 {
+    height: 182px;
+    width: 100%;
+    position: relative;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+
+    .leader-big-card {
+        width: 29%;
+        height: 33%;
+        margin-right: 10px;
+    }
+}
+
+.leaderboard-cards-title1 ion-skeleton-text {
+    width: 40%;
+    height: 3vh;
+    margin-top: 18px;
+}
+
+.leaderboard-cards-title2 {
+    height: 44px;
+}
+
+.leaderboard-cards-title3 {
+    margin-top: -113px;
+    height: 3px;
+}
+
+.leaderboard-cards-title5 {
+    height: 24px;
+    width: 244px;
+}
