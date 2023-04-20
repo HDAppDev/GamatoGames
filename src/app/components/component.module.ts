@@ -21,6 +21,7 @@ import { NotificationComponent } from "./notification/notification.component";
 import { UserPage } from "./user-profile/user-profile.page";
 import { TopNotificationComponent } from "./top-notification/top-notification.component";
 import { NotificationPopComponent } from "./notification-pop/notification-pop.component";
+import { HoldingScreenComponent } from "./holding-screen/holding-screen.component";
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { NotificationPopComponent } from "./notification-pop/notification-pop.co
         NotificationComponent,
         TopNotificationComponent,
         NotificationPopComponent,
+        HoldingScreenComponent
         
     ],
     exports: [

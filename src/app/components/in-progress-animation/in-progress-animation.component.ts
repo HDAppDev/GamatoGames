@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./in-progress-animation.component.scss'],
 })
 export class InProgressAnimationComponent implements OnInit {
-  @Input('type') type: string;
+  // @Input('type') type: string;
   constructor() { }
 
   ngOnInit() {}
