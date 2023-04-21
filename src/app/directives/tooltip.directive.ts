@@ -9,16 +9,4 @@ declare var ClipboardJs: any;
     exportAs: "copyToClipboard"
 })
 
-export class CopyToClipboardDirective {
-    // private textToCopy: string;
-    
-    // @Input() tooltipDelay = 2000;
-    // @Input() 
-    // set appCopyToClipboard(text: string) {
-    //     if (this.platform.is("cordova")) {
-    //         this.textToCopy = text;
-    //     } else {
-    //         this.elementRef.nativeElement.setAttribute("data-clipboard-text", text);
-    //     }
-    // }
-}
+export class CopyToClipboardDirective {}
