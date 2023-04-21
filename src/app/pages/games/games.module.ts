@@ -9,7 +9,6 @@ import { GamesPageRoutingModule } from './games-routing.module';
 import { GamesPage } from './games.page';
 import { ComponentModule } from 'src/app/components/component.module';
 import { RouterModule } from '@angular/router';
-import { PipeModule } from 'src/app/pipe/pipe.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { GameBlogComponent } from './game-blog/game-blog.component';
 import { GamesReplayableComponent } from './games-replayable/games-replayable.component';
@@ -24,7 +23,6 @@ import { SkillGameComponent } from './skill-game/skill-game.component';
     IonicModule,
     GamesPageRoutingModule,
     ComponentModule,
-    PipeModule,
     MatDialogModule,
 
   ],

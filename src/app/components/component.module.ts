@@ -24,6 +24,7 @@ import { NotificationPopComponent } from "./notification-pop/notification-pop.co
 import { HoldingScreenComponent } from "./holding-screen/holding-screen.component";
 import { LevelAnimationComponent } from "./level-animation/level-animation.component";
 import { GamePlayComponent } from "./game-play/game-play.component";
+import { DirectiveModule } from "../directives/directive.modules";
 
 
 @NgModule({
@@ -72,6 +73,7 @@ import { GamePlayComponent } from "./game-play/game-play.component";
         CommonModule,
         IonicModule,
         MaterialModule,
+        DirectiveModule
     ],
 
 })
