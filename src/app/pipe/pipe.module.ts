@@ -20,7 +20,6 @@ import { TextManipulatePipe } from "./text-manipulatePipe";
         decimalPipe,
         SafeHtmlPipe,
         TextManipulatePipe,
-        
     ],
     exports: [
         FilterPipe,

@@ -1,0 +1,48 @@
+
+@import "calender";
+$app-page-background: #f4f5f6;
+$max-width: 100%;
+$max-height: 100vh;
+$common-app-padding: 2vh;
+$link-color-blue: #3b5e79;
+$link-color-violet: #7265e3;
+$warning-color: #e06838;
+$common-black: #2d3142;
+
+.referral-model {
+    background: #000;
+    .model-wrapper {
+        height: 70vh;
+        bottom: 0;
+        position: absolute;
+        border-radius: none;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
+.ng-tooltip {
+    position: absolute;
+    max-width: calc(100% - 9.855vh);
+    font-size: 1.7vh;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    padding: 3px 8px;
+    background: #2d3142;
+    border-radius: 17px;
+    z-index: 1000;
+    opacity: 0;
+    box-shadow: 0px 10px 30px rgba(112, 136, 210, 0.3);
+    padding: 2.463vh;
+    &:after {
+        content: "";
+        position: absolute;
+        border-style: solid;
+    }
+}
+
+.ng-tooltip:after{
+    
+}

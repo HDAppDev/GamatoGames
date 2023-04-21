@@ -1,5 +1,5 @@
 {
-  "name": "ionicStarWarsApp",
+  "name": "ionicstarwarsapp",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -30,7 +30,7 @@
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
     "@ionic/angular": "^6.1.9",
-    "firebase": "^9.18.0",
+    "firebase": "^9.20.0",
     "firebaseui": "^6.0.2",
     "ionicons": "^6.0.3",
     "rxjs": "~7.5.0",
@@ -67,7 +67,17 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "ts-node": "~8.3.0",
-    "typescript": "~4.8.4"
+    "typescript": "~4.8.4",
+    "workbox-webpack-plugin": "^6.5.4"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongarehari/GamatoGames.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongarehari/GamatoGames/issues"
+  }
 }

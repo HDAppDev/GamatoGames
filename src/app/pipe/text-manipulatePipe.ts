@@ -4,7 +4,7 @@ import { Pipe } from "@angular/core";
     name: "toLower",
 })
 export class TextManipulatePipe {
-    transform(value) {
-        return value?.toLowerCase();
-    }
+    // transform(value) {
+    //     return value?.toLowerCase();
+    // }
 }
