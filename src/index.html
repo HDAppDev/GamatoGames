@@ -71,6 +71,78 @@
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="jquery" href="./assets/js/ptt.js">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<style>
+  .inputCard {
+    padding-left: 2vh;
+  }
+</style>
+
+<script defer>
+  var wpwlOptions = {
+    iframeStyle: {
+      "card-number-placeholder": {
+        color: "#afb0c6",
+        "font-size": "16px",
+        "font-family": "Arial",
+      },
+      "cvv-placeholder": {
+        color: "#afb0c6",
+        "font-size": "16px",
+        "font-weight": "500",
+        "font-family": "Arial"
+      },
+    },
+    style: "plain",
+    paymentTarget: "myCustomIframe1",
+    disableSubmitOnEnter: true,
+    brandDetection: true,
+    label: {
+      cardHolder: "Name"
+    },
+    onReady: () => {
+      const button = document.querySelector(".wpwl-button-pay");
+      button.style.cssText += "width:100%; padding:1.5vh;border-radius:10px";
+      setTimeout(() => {
+        if(button) {
+          button.disabled = true;
+        }
+      }, 2000);
+      document.getElementsByClassName("wpwl-label-cardNumber")[0].innerHTML = "Card Number";
+    },
+  };
+</script>
+<script defer>
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  if(/Android/i.test(navigator.userAgent)) {
+    window["isAndroid"] = true;
+    var meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "width=device-width,height="+ window/innerHeight + ", initial-scale=1.0";
+    document.getElementsByTagName("head")[0].appendChild(meta);
+  }
+</script>
+
+<script>
+  (function (w,d,s,l,i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      "gtm.start": new Date().getTime(),
+      event: "gtm.js",
+    });
+    var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s),
+    dl = l != "dataLayer" ? "&l" + l : "";
+    j.async = true;
+  })
+</script>
+
 </head>
 
 <body>
