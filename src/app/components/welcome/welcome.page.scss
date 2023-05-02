@@ -1,0 +1,183 @@
+.mobile-view-main {
+    width: 100% !important;
+  }
+  
+  .mobile-view {
+    max-width: 600px !important;
+    margin: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+  
+  .mobile-view iframe {
+    max-width: 600px;
+    margin: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: scale(1);
+  }
+  
+  @media (max-width: 600px) {
+    .mobile-view iframe {
+      max-width: 100% !important;
+      width: 100% !important;
+      transform: scale(1.8);
+    }
+  }
+  
+  .home-logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  
+  ion-img {
+    height: 7.38vh;
+    width: 14.4vw;
+    margin: 0 auto;
+  }
+  
+  .header {
+    font-size: 4.5vh;
+  }
+  
+  ::ng-deep .swiper-pagination-bullet {
+    background: #e7ebed;
+    border: #707070;
+  }
+  
+  .content-slide {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 0 3vh;
+  }
+  
+  .slide-title {
+    font-weight: 500;
+    color: #2d3142;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.7vh;
+    margin-bottom: 0.23vh;
+    font-size: 3.74vh;
+  }
+  
+  .slide-text {
+    color: #74758c;
+    font-size: 1.97vh;
+    line-height: 1.5;
+    display: block;
+    -webkit-margin-before: 0em;
+    margin-block-start: 0em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+  
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.46vh;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+  
+  .background-video-content {
+    position: relative;
+    height: 63vh;
+    border: none;
+    video {
+      width: 300%;
+      position: absolute;
+      top: 1vh;
+      left: -90%;
+      right: 0;
+      margin: auto;
+      height: 85%;
+      z-index: 0;
+    }
+    .alreadyhave-acc {
+      z-index: 1;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 10px;
+      background-color: #fff;
+      font-size: 16px;
+    }
+  }
+  
+  .createacc-btn {
+    flex: 1 1 100% !important;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .bottom-flex-container {
+    position: relative;
+    z-index: 10;
+    align-items: center;
+  }
+  
+  .signin-text-light {
+    padding-top: 4.92vh;
+    color: #737373;
+    font-size: 1.97vh;
+    margin: 0;
+  }
+  
+  .signin {
+    color: #0000ff;
+  }
+  
+  .opacity-layer {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(0deg, #ffffff 18%, #ffffff78, transparent 30%);
+    position: absolute;
+    z-index: 1;
+  }
+  
+  ion-slides {
+    z-index: 3;
+    padding: 0 0 2vh 0px !important;
+  }
+  
+  :host {
+    ion-button {
+      --background: #7265e3;
+    }
+  }
+  
+  .sign-in-spinner {
+    position: fixed;
+    bottom: 10.5vh;
+    color: #68b6f3;
+  }
+  
+  .sign-up-spinner {
+    color: #fff;
+    font-weight: 500px;
+    align-items: center;
+    justify-content: center;
+    width: 7vh;
+    height: 7vh;
+  }
+  #btnsignup {
+    white-space: break-spaces;
+  }
+  
+  .refresh-btn{
+    margin: 0 auto;
+    margin-left: 18vh;
+    margin-top: 2vh;
+    padding: 1vh;
+    font-weight: 500;
+    border-radius: 2vh;
+  }
