@@ -1,0 +1,36 @@
+
+<ng-template #loading>
+    <app-in-progress-animation></app-in-progress-animation>
+</ng-template>
+
+<ion-content #pageTop>
+    <ion-row class="title-head">
+        <ion-col class="ion-no-padding" size="10">
+            <p class="status-title"></p>
+        </ion-col>
+
+        <ion-col class="ion-no-padding flex-end">
+            <img src="#" class="close-icon" alt="">
+        </ion-col>
+    </ion-row>
+
+    <!-- first card -->
+    <p class="headings"></p>
+    <form [formGroup]="accountDetails">
+        <ion-card class="my-profile">
+            <!-- username -->
+            <ion-row class="ion-align-items-center profile-row">
+                <ion-col size="6">
+                    <h1 class="heading-title">{{"your-details.Username"}}</h1>
+                </ion-col>
+                <ion-col class="ion-no-margin align-right">
+                    <ion-input #nickname class="user-data" type="text" maxlength="15" formControlName="profile_nickname"></ion-input>
+                </ion-col>
+            </ion-row>
+
+            <div class="errorContainer">
+                
+            </div>
+        </ion-card>
+    </form>
+</ion-content>
