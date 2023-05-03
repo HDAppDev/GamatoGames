@@ -1,0 +1,164 @@
+$app-page-background: #f4f6fa;
+$max-width: 100%;
+$max-height: 100vh;
+$common-black: #2d3142;
+$common-light-text: #9d9fb9;
+
+.preference-upper-wrapper {
+  padding: 1.97vh 5.866vw 1.97vh 5.866vw;
+
+  @media (min-width: 1025px) {
+    padding: 1.97vh 30px 1.97vh;
+  }
+
+  ion-icon {
+    font-size: 5vh;
+    width: 5vh;
+    margin-left: -0.862vh;
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 1.97vh;
+    height: 3.69vh;
+    font-size: 3.69vh;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #2d3142;
+  }
+
+  p {
+    margin: 0;
+    font-size: 2.3vh;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #a2a3bb;
+    padding: 0 4.133vw;
+  }
+}
+
+ion-item {
+  width: 100%;
+  margin-top: 1.15vh;
+
+  --border-color: #fff;
+
+  .align-right {
+    justify-content: flex-end;
+  }
+}
+
+.preference-middle-wrapper {
+  padding: 0 5.866vw;
+  background: #fff;
+  box-shadow: 0 0 100px rgb(159 171 193 / 20%);
+  border-radius: 10px;
+  margin: auto;
+  width: 90% !important;
+
+  @media (min-width: 1025px) {
+    padding: 0 30px;
+  }
+  ion-item {
+    height: 7.635vh;
+  }
+  ion-row {
+    width: 100%;
+    --border-width-bottom: 2px;
+  }
+
+  .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .toggle-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    ion-toggle {
+      --background-checked: #7564e3;
+    }
+  }
+
+  ion-item p {
+    font-size: 1.97vh;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: 0.0283vh;
+    color: #2d3142;
+    width: 100%;
+    height: 1.72vh;
+  }
+
+  ion-item:last-child {
+    --inner-border-width: 0;
+  }
+}
+
+.preference-lower-wrapper {
+  p {
+    height: 26.6vh;
+    font-size: 1.97vh;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #9c9eb9;
+    padding: 0 4.133vw;
+    margin-top: 20px;
+  }
+
+  padding: 0 6.133vw;
+
+  @media (min-width: 1025px) {
+    padding: 0 30px;
+  }
+
+  .blue-text {
+    color: #68b6f3;
+  }
+}
+
+.warning-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline-block;
+  height: 2.3vh;
+  width: 2.3vh;
+  color: #e95b5b;
+  vertical-align: middle;
+}
+
+.title-head {
+  margin-bottom: -3vh;
+}
+
+.status-title {
+  font-size: 3.69vh;
+  font-weight: 500;
+  margin-left: 2vh;
+  color: #2d3142;
+}
+
+.close-icon {
+  float: right;
+  margin-top: 3vh;
+  font-size: 4.5vh;
+  color: #9c9eb9;
+  margin-right: 3vh;
+}
