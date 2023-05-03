@@ -50,3 +50,32 @@ export const slideOutLeft = trigger('slideOutLeft', [
         ])
     ])
 ])
+
+export const fadeText = trigger('fadeText', [
+    state(
+        'blur', 
+        style({
+            opacity: 0,
+        })
+    ),
+    state(
+        'normal',
+        style({
+            opacity: 1,
+        })
+    ),
+    transition('* => blur', [animate('300ms ease-in')]),
+    transition('* => normal', [animate('300ms ease-in')]),
+])
+
+export const reduceHeight = trigger('reduceHeight', [
+    state(
+        'reduce',
+        style({
+            height: 0,
+            margin: 0,
+            padding:0,
+        })
+    ),
+    transition('* => reduce', [animate('200ms')]),
+])
