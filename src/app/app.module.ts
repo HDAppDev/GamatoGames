@@ -12,13 +12,14 @@ import { ComponentModule } from './components/component.module';
 
 // }
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,],
   imports: [
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
     HomePageModule,
     ComponentModule,
+    
   ],
   providers: [{ 
     provide: RouteReuseStrategy, 
