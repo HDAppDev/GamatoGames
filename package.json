@@ -32,6 +32,7 @@
     "@ionic/angular": "^7.0.4",
     "@types/swiper": "^6.0.0",
     "censor-sensor": "^1.0.6",
+    "date-fns": "^2.30.0",
     "firebase": "^9.20.0",
     "firebaseui": "^6.0.2",
     "ionicons": "^6.0.3",
