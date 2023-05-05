@@ -1,9 +1,10 @@
 import { Injectable } from "@angular/core";
+import { BehaviorSubject } from "rxjs";
 
 @Injectable ({
     providedIn: "root",
 })
 
-export class AuthService extends BaseService {
-    
+export class AuthService {
+    selectedlanguages$ = new BehaviorSubject("en");
 }

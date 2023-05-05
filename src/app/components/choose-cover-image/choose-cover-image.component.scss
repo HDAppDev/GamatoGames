@@ -1,0 +1,154 @@
+.cover-wrapper {
+  background-color: #f4f6fa;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 0px;
+  }
+  .main-title-wrapper {
+    h2 {
+      margin-top: 10px;
+      font-family: Rubik;
+      font-size: 3vh;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: center;
+      padding: 15px 0 0px;
+      color: #2d3142;
+      margin-bottom: 0px;
+    }
+    .close-icon {
+      width: 25px;
+      height: 25px;
+      margin-top: 20px;
+    }
+  }
+  .main-title-wrapper {
+    text-align: left;
+    padding: 0px 20px;
+    h3 {
+      font-family: Rubik;
+      font-size: 2vh;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0.2285714298px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      color: #2d3142;
+    }
+    p {
+      font-family: Rubik;
+      font-size: 1.7vh;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      margin: 2px 0px;
+      color: #2d3142;
+    }
+  }
+  .choose-slider {
+    .slider-size-spec {
+      border-radius: 0;
+      height: 214px;
+
+      @media (min-width: 600px) {
+        height: 260px;
+      }
+      display: flex;
+      opacity: 0.5;
+      width: 100%;
+    }
+    .swiper-slide-active {
+      .slider-size-spec {
+        opacity: 1;
+      }
+    }
+    ion-card {
+      margin-inline: 6px !important;
+    }
+  }
+
+  .choose-btn {
+    --background-activated: #7564e3;
+    --background: #7564e3;
+    --background-focused: #7564e3;
+    --background-hover: #7564e3;
+    --background-hover-opacity: 0.9;
+    font-weight: 400;
+    --border-radius: 1.438rem;
+    min-height: 4.31vh;
+    --box-shadow: none;
+    text-transform: inherit;
+    height: 50px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.9vh;
+    display: block;
+    width: 80%;
+    margin: 15px auto 30px;
+  }
+  .add-option {
+    font-family: Rubik;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #68b6f3;
+  }
+}
+.slider-img {
+  width: 100%;
+  @media (min-width: 600px) {
+    object-fit: contain;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .home-slider {
+    background: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .slider-size-spec {
+    margin: 1.8vh 1vh 1vh !important;
+  }
+}
+@media (max-width: 750px) {
+  .nav-icon {
+    display: none;
+  }
+}
+.nav-prev-icon {
+  font-size: 0.8rem;
+  background: #c4c4c4;
+  border-radius: 87px;
+  position: relative;
+  left: 79%;
+  width: 26.25px;
+  height: 26.25px;
+  color: #fafafa;
+}
+.nav-next-icon {
+  font-size: 0.8rem;
+  background: #c4c4c4;
+  border-radius: 87px;
+  position: relative;
+  left: 8%;
+  width: 26.25px;
+  height: 26.25px;
+  color: #fafafa;
+}
