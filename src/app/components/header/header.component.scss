@@ -1,51 +1,47 @@
 ion-header {
-
-    ion-toolbar {
-        --background: #f4f6fa;
-        --padding-start: 5.866vw;
-        --padding-end: 5.866vw;
-        --padding-top: 1.847vh;
-        --padding-bottom: 1.231vh
-
-        @media (min-width: 1025px) {
-            --background: auto;
-            --padding-start: auto;
-            --padding-end: auto;
-            --padding-top: auto;
-            --padding-bottom: auto;
-            padding: 16px 28px !important;
-        }
-
-        --border-color: transparent;
-
-        mat-icon {
-            font-size: 3.325vh;
-            height: 3.325vh;
-            width: 3.325vh;
-            color: #2d3142;
-            margin-bottom: 1.231vh;
-            margin-left: -0.533vw;
-        }
-
-        .page-back-icon {
-            height: 3.325vh;
-            width: 3.325vh;
-            margin-bottom: 1.231vh;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 3.694vh;
-            font-weight: 500;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            color: #2d3142;
-        }
+  ion-toolbar {
+    --background: #f4f6fa;
+    --padding-start: 5.866vw;
+    --padding-end: 5.866vw;
+    --padding-top: 1.847vh;
+    --padding-bottom: 1.231vh @media (min-width: 1025px) {
+      --background: auto;
+      --padding-start: auto;
+      --padding-end: auto;
+      --padding-top: auto;
+      --padding-bottom: auto;
+      padding: 16px 28px !important;
     }
+
+    --border-color: transparent;
+
+    mat-icon {
+      font-size: 3.325vh;
+      height: 3.325vh;
+      width: 3.325vh;
+      color: #2d3142;
+      margin-bottom: 1.231vh;
+      margin-left: -0.533vw;
+    }
+
+    .page-back-icon {
+      height: 3.325vh;
+      width: 3.325vh;
+      margin-bottom: 1.231vh;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3.694vh;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      color: #2d3142;
+    }
+  }
 }
 
 @media (min-width: 1025px) {
-    
 }

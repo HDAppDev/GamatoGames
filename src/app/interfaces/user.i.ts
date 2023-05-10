@@ -1,4 +1,4 @@
-import { timeStamp } from "@firebase/firestore-types";
+// import { timeStamp } from "@firebase/firestore-types";
 
 export interface User {
     poopso_profile_url: any;
@@ -13,7 +13,7 @@ export interface User {
     profile_picture: string;
     profile_nickname: string;
     house_number: string;
-    timestamp: Timestamp;
+    // timestamp: Timestamp;
     email: string;
     contact_telephone: string;
     msn: string;
