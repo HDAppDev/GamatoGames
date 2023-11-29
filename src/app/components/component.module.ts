@@ -25,6 +25,7 @@ import { HoldingScreenComponent } from "./holding-screen/holding-screen.componen
 import { LevelAnimationComponent } from "./level-animation/level-animation.component";
 import { GamePlayComponent } from "./game-play/game-play.component";
 import { DirectiveModule } from "../directives/directive.modules";
+import { SplashComponent } from "./splash/splash.component";
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { DirectiveModule } from "../directives/directive.modules";
         HoldingScreenComponent,
         LevelAnimationComponent,
         GamePlayComponent,
+        SplashComponent
         
     ],
     exports: [
