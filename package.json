@@ -39,7 +39,7 @@
     "capacitor-screen-orientation": "0.0.11",
     "censor-sensor": "^1.0.6",
     "date-fns": "^2.30.0",
-    "firebase": "^9.23.0",
+    "firebase": "^10.12.2",
     "firebase-tools": "^13.6.0",
     "firebaseui": "^6.0.2",
     "ionicons": "^6.0.3",
